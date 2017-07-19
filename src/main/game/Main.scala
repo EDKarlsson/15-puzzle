@@ -9,6 +9,6 @@ object Main {
     gameBoard.randomizeBoard()
     gameBoard.printBoard()
     val solver: Solver = new Solver(gameBoard)
-    solver.solve(gameBoard)
+    solver.createGraph(gameBoard)
   }
 }
