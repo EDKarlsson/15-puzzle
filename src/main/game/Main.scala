@@ -7,8 +7,10 @@ object Main {
   def main(args: Array[String]): Unit ={
     val gameBoard : Board = new Board()
     gameBoard.randomizeBoard()
-    gameBoard.printBoard()
+
     val solver: Solver = new Solver(gameBoard)
-    solver.createGraph(gameBoard)
+    solver.init()
+    solver.readEdgesFromFile()
+    solver.printEdges()
   }
 }

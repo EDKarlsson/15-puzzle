@@ -68,7 +68,6 @@ class Board {
     var pieceToMove: Int = 0
     for (i <- 0 to numMoves) {
       pieceToMove = random.nextInt(15)
-      println("Piece to move " + pieceToMove)
       movePiece(pieceToMove)
     }
   }
