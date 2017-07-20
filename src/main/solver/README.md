@@ -2,9 +2,8 @@
 Just notes for me to keep as I work through the problems. 
 Trying to do this without looking at solutions or hints.
 
-# Calculating the cost for each piece
+## Game Board
 
-Edge Matrix
 ```
      1  2  3  4
    - - - - - - 
@@ -12,9 +11,9 @@ Edge Matrix
 2 :  4  5  6  7
 3 :  8  9 10 11
 4 : 12 13 14 15
-
 ```
 
+### Edge Matrix
 ```
     0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -35,3 +34,5 @@ Edge Matrix
 14: 0   0   0   0   0   0   0   0   0   0   1   0   0   1   0   1	
 15: 0   0   0   0   0   0   0   0   0   0   0   1   0   0   1   0
 ```
+## Calculating the cost for each piece
+

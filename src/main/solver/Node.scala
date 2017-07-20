@@ -2,11 +2,8 @@ package main.solver
 
 import main.game.model.Piece
 
-class Node {
-  var left: Node = null
-  var right: Node = null
-  var above: Node = null
-  var below: Node = null
-  var cost: Int = 0
-  var piece: Piece = null
+class Node(x: Int, y: Int, cost: Int = 0, piece: Piece = null) {
+  override def toString: String = {
+    "x [ " + x.toString + " ] y [ " + y.toString + " ] cost [ " + cost + " ]"
+  }
 }
